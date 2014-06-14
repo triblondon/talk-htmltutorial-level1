@@ -7,8 +7,8 @@ based on dark.css by Ivan Sagalaev
 
 pre code {
   display: block; padding: 0.5em;
-  background: #3F3F3F;
-  color: #DCDCDC;
+  background: transparent;
+  color: #333;
 }
 
 pre .keyword,
@@ -20,7 +20,7 @@ pre .nginx .title,
 pre .request,
 pre .status,
 pre .clojure .attribute {
-  color: #E3CEAB;
+  color: blue;
 }
 
 pre .django .template_tag,
@@ -65,7 +65,7 @@ pre .apache .tag,
 pre .nginx .built_in,
 pre .tex .command,
 pre .prompt {
-    color: #efef8f;
+    color: blue;
 }
 
 pre .dos .winutils,
@@ -90,7 +90,7 @@ pre .attr_selector,
 pre .pseudo,
 pre .apache .cbracket,
 pre .tex .formula {
-  color: #CC9393;
+  color: purple;
 }
 
 pre .shebang,
